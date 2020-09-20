@@ -34,23 +34,91 @@
       </ul>
     </div>
   </nav> 
-  <div class="ui segment" id="post1">
-    <h3></h3>
-    <p id="facts">
-    How long is it since you have taken a walk outside? Are you drinking enough water and taking enough break? 
-    Working from home has created a “workaholic” culture for many who now draw no clear distinction between work and life. 
-    Overtime, this could contribute to some mental health problems that would affect the quality of our lives; but Instnty is here to help. 
-    By signing up to our daily reminders, you will receive helpful tips during certain hours to remind yourself to take a break from your busy life.
-
-  </p>
+  <div class="jumbotron" id = "recjumbotron">
+    <h1 class="display-4" id="jumbotrontitle" >Find your recommendations!</h1>
+    <p class="lead">Complete the quiz to find recommendations suited to your wants and needs.</p>
   </div>
   
-  
-  
+  <section id="quiz">
+  <fieldset class="form-group question" >
+    1. How do you enjoy spending your free time? 
+    <div class="form-check">
+      <input class="form-check-input" name="question1" id="question11" value="option1" type="radio">
+      <label class="form-check-label" for="question11">
+      Being active
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" name="question1" id="question12" value="option2" type="radio">
+      <label class="form-check-label" for="question12">
+      Being with friends
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" name="question1" id="question13" value="option3" type="radio">
+      <label class="form-check-label" for="question13">
+      Being creative
+      </label>
+    </div>
+  </fieldset>
     
+  <fieldset class="form-group question">
+    2. What have you struggled most with during quarantine? 
+    <div class="form-check">
+      <input class="form-check-input" name="question2" id="question21" value="option1" type="radio">
+      <label class="form-check-label" for="question21">
+      Stress
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" name="question2" id="question22" value="option2" type="radio">
+      <label class="form-check-label" for="question22">
+      Taking breaks from work
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" name="question2" id="question23" value="option3" type="radio">
+      <label class="form-check-label" for="question23">
+      Being social while at home
+      </label>
+    </div>
+  </fieldset>
+    
+  <fieldset class="form-group question">
+    3. What is one of your goals while at home?
+    <div class="form-check">
+      <input class="form-check-input" name="question3" id="question31" value="option1" type="radio">
+      <label class="form-check-label" for="question31">
+      Learn a new hobby
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" name="question3" id="question32" value="option2" type="radio">
+      <label class="form-check-label" for="question32">
+      Stay organized
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" name="question3" id="question33" value="option3" type="radio">
+      <label class="form-check-label" for="question33">
+      Find time to relax
+      </label>
+    </div>
+  </fieldset>
+   
+  <button onclick="getResults()" type="submit" class="btn btn-primary">Submit</button>
+  </section>
+  
+  <section id="results">
+    <h1 id="suggestiontitle"></h1>
+    <p id="suggestion1"> </p>
+    <p id="suggestion2"> </p>
+    <p id="suggestion3"> </p>
+  </section>
+  
+  
 
   
 </body>
 </html>
-
 
