@@ -1,1 +1,76 @@
+body {
+  <!-- this is a comment --> 
+  text-align: center;
+}
 
+
+#title {
+
+    font-family:'Julius Sans One', sans-serif;
+}
+
+.formtext {
+    color: lightblue;
+    font-size: 1em;
+}
+
+#color {
+    color: rgb(252, 212, 33);
+}
+
+#post1 {
+    width: 60%;
+    margin: auto;
+}
+
+#facts {
+  text-align: center;
+  color: #1288d6;
+  margin: auto;
+  width: 80%;
+  font-sie: 1.5em;
+  
+}
+
+section{
+  text-align: center;
+  margin: 10%;
+}
+
+#form_question {
+  text-align: center;
+}
+
+#form_text1 {
+  text-align: center;
+}
+
+.navbar{
+  position: fixed;
+}
+
+#mainjumbotron{
+background-image: url("https://www.trapollo.com/wp-content/uploads/2018/09/Abstract-Blue-and-Green-Head.jpg");
+background-size: cover;
+height: 90%;
+text-align: center;
+font-family:'Julius Sans One', sans-serif;
+font-weight: bold;
+}
+
+#heading{
+  font-size: 10em;
+}
+
+#recjumbotron{
+  text-align:center;
+  background-color: #6495ED;
+}
+
+#quiz{
+  margin: auto;
+}
+
+.question{
+  padding-top: 5vh;
+}
